@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'OTPInputView_Example' do
+  pod 'OTPInputView', :path => '../'
+
+  target 'OTPInputView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

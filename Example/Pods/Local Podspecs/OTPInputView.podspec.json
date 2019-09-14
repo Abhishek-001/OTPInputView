@@ -1,0 +1,22 @@
+{
+  "name": "OTPInputView",
+  "version": "0.1.0",
+  "summary": "A short description of OTPInputView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/abhishek-001/OTPInputView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "abhishek-001": "work.abhirathi@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/abhishek-001/OTPInputView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "OTPInputView/Classes/**/*"
+}

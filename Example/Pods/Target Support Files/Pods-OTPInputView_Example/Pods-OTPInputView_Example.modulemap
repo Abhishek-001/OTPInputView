@@ -1,0 +1,6 @@
+framework module Pods_OTPInputView_Example {
+  umbrella header "Pods-OTPInputView_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

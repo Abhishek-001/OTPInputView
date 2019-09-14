@@ -1,0 +1,16 @@
+PODS:
+  - OTPInputView (0.1.0)
+
+DEPENDENCIES:
+  - OTPInputView (from `../`)
+
+EXTERNAL SOURCES:
+  OTPInputView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  OTPInputView: 30b843e38b8a0afadefc2fc14f4f6fb644da0207
+
+PODFILE CHECKSUM: e3123e780251e22dbf5f0b3b3f592c9ea6c8ee13
+
+COCOAPODS: 1.7.5

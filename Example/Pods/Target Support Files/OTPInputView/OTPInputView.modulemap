@@ -1,0 +1,6 @@
+framework module OTPInputView {
+  umbrella header "OTPInputView-umbrella.h"
+
+  export *
+  module * { export * }
+}
