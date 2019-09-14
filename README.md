@@ -20,6 +20,12 @@ it, simply add the following line to your Podfile:
 pod 'OTPInputView'
 ```
 
+## Simple usage via Interface Builder
+![](Images/OTPInputView-usage.gif)
+
+## Working example
+![](Images/OTPInputView-working.gif)
+
 ## Author
 
 Abhishek Rathi, work.abhirathi@gmail.com
