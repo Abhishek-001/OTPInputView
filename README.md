@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # OTPInputView
 
 [![CI Status](https://img.shields.io/travis/abhishek-001/OTPInputView.svg?style=flat)](https://travis-ci.org/abhishek-001/OTPInputView)
@@ -27,3 +28,6 @@ abhishek-001, work.abhirathi@gmail.com
 ## License
 
 OTPInputView is available under the MIT license. See the LICENSE file for more info.
+=======
+# OTP-InputView
+>>>>>>> ab9f6ca1e10bc7204fbaf98849ad0854d3f032e2
