@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		46070BDF232CF8B2007CC90D /* OTPInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46070BDE232CF8B2007CC90D /* OTPInputView.swift */; };
 		4EFD9BC8A0C938A0CD775E7726CAA064 /* Pods-OTPInputView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E9B71D70C29C4AA42A5C279B48C54132 /* Pods-OTPInputView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5B3819DA712522D566B77E64D90D511A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		627DD43BC8CC0294FE60890ABBA3FAD0 /* Pods-OTPInputView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 85AE2A627715F523B29461335CE7C376 /* Pods-OTPInputView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		671513FEBF9534BE750C7675187CE4C1 /* OTPInputView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B84E598B2F1AA5805F852074E1D2A7CC /* OTPInputView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		687EBC84A26ED1CF4585DC283FDD906E /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B8806C59C1BD8E1D529A9AB1477549 /* ReplaceMe.swift */; };
 		77CCB184216DCF11C929F95227106FC9 /* OTPInputView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CE5CDBF28E037804B1A4AACC5878B41 /* OTPInputView-dummy.m */; };
 		7FC9A71123E0DEF5D56A120F10929D72 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		C5C2EFAF8518FA6A24B6AF0FF2C3E5BF /* Pods-OTPInputView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A76E36F919F12E272C96B2210E8AC3E4 /* Pods-OTPInputView_Tests-dummy.m */; };
@@ -38,27 +38,27 @@
 
 /* Begin PBXFileReference section */
 		07B71515597D3D5C623B477A911EC250 /* Pods-OTPInputView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OTPInputView_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		0A63FCF63BC66AB8CA800AEA1DB36866 /* OTPInputView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = OTPInputView.framework; path = OTPInputView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A63FCF63BC66AB8CA800AEA1DB36866 /* OTPInputView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OTPInputView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F0BE5623E10830A82EB4178B0BA08FA /* OTPInputView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = OTPInputView.modulemap; sourceTree = "<group>"; };
-		1FF31DA7738027C06D851A5F6E6CA251 /* Pods_OTPInputView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OTPInputView_Tests.framework; path = "Pods-OTPInputView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FF31DA7738027C06D851A5F6E6CA251 /* Pods_OTPInputView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OTPInputView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		27996C7BBDC1F197D9D843FEA2546D47 /* Pods-OTPInputView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OTPInputView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		292C79BFA9D6375AC8B022BFF2313094 /* OTPInputView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OTPInputView.xcconfig; sourceTree = "<group>"; };
 		2B971D658D84C43B6AE8DDF03B7E544A /* Pods-OTPInputView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OTPInputView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		2E4517EF17136FB51E2F9D9806AB188C /* OTPInputView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "OTPInputView-Info.plist"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		35AC17A8A1C8BE5F24A1CBB4B4B152AB /* Pods-OTPInputView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OTPInputView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		37CD32D681FC1399E23F82D542AC6CC3 /* OTPInputView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = OTPInputView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		5EE081F3E70B940B29B54BE295CD31EF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		37CD32D681FC1399E23F82D542AC6CC3 /* OTPInputView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = OTPInputView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		46070BDE232CF8B2007CC90D /* OTPInputView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OTPInputView.swift; sourceTree = "<group>"; };
+		5EE081F3E70B940B29B54BE295CD31EF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		63799093CCA4066F7038FE7EF442DC66 /* Pods-OTPInputView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OTPInputView_Example-frameworks.sh"; sourceTree = "<group>"; };
-		79B8806C59C1BD8E1D529A9AB1477549 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = OTPInputView/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		7CE5CDBF28E037804B1A4AACC5878B41 /* OTPInputView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OTPInputView-dummy.m"; sourceTree = "<group>"; };
 		7E7FBE84DA9D1EE9E60309C749EA339B /* Pods-OTPInputView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OTPInputView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		85AE2A627715F523B29461335CE7C376 /* Pods-OTPInputView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OTPInputView_Tests-umbrella.h"; sourceTree = "<group>"; };
 		882E39EDC5FFC25F25AFC894F7BB099F /* Pods-OTPInputView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OTPInputView_Example-dummy.m"; sourceTree = "<group>"; };
 		9166032033D6919B6136E7ADB0DC99F5 /* Pods-OTPInputView_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OTPInputView_Tests-Info.plist"; sourceTree = "<group>"; };
-		9643CE66ED8A882C29E3DB48B515C9B3 /* Pods_OTPInputView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OTPInputView_Example.framework; path = "Pods-OTPInputView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9643CE66ED8A882C29E3DB48B515C9B3 /* Pods_OTPInputView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OTPInputView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C4D26ADBD34F38FE7C3559ABB65A27D /* Pods-OTPInputView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OTPInputView_Example-Info.plist"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E34B9284ED7C5A263CF96F367313958 /* OTPInputView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OTPInputView-prefix.pch"; sourceTree = "<group>"; };
 		9E64C14A7276459D69F59B673F5334CA /* Pods-OTPInputView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OTPInputView_Tests.modulemap"; sourceTree = "<group>"; };
 		A76E36F919F12E272C96B2210E8AC3E4 /* Pods-OTPInputView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OTPInputView_Tests-dummy.m"; sourceTree = "<group>"; };
@@ -68,7 +68,7 @@
 		E24225B34D085A75F4251F0E01CB81CB /* Pods-OTPInputView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OTPInputView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		E6B5FFDF8683EAB55031BAE7318704A9 /* Pods-OTPInputView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OTPInputView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		E9B71D70C29C4AA42A5C279B48C54132 /* Pods-OTPInputView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OTPInputView_Example-umbrella.h"; sourceTree = "<group>"; };
-		F6DE60020007F713C036E37B1B7D5AA1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		F6DE60020007F713C036E37B1B7D5AA1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +116,7 @@
 		2182C2987BCBEDD4CAD14338F682FB52 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
+				46070BDD232CF874007CC90D /* Source */,
 				F6DE60020007F713C036E37B1B7D5AA1 /* LICENSE */,
 				37CD32D681FC1399E23F82D542AC6CC3 /* OTPInputView.podspec */,
 				5EE081F3E70B940B29B54BE295CD31EF /* README.md */,
@@ -130,6 +131,14 @@
 				569F1DC2C631C41576F6912FFC1A513E /* Pods-OTPInputView_Tests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		46070BDD232CF874007CC90D /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				46070BDE232CF8B2007CC90D /* OTPInputView.swift */,
+			);
+			name = Source;
 			sourceTree = "<group>";
 		};
 		569F1DC2C631C41576F6912FFC1A513E /* Pods-OTPInputView_Tests */ = {
@@ -161,7 +170,6 @@
 		7620EBDFD2D32AAC40C73095E7B3DA66 /* OTPInputView */ = {
 			isa = PBXGroup;
 			children = (
-				79B8806C59C1BD8E1D529A9AB1477549 /* ReplaceMe.swift */,
 				2182C2987BCBEDD4CAD14338F682FB52 /* Pod */,
 				005AE468D88FEFDA794BE4B1D9444BCC /* Support Files */,
 			);
@@ -315,6 +323,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					268BC1BBB6803FF7C1134B139858465F = {
+						LastSwiftMigration = 1030;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -381,7 +394,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				77CCB184216DCF11C929F95227106FC9 /* OTPInputView-dummy.m in Sources */,
-				687EBC84A26ED1CF4585DC283FDD906E /* ReplaceMe.swift in Sources */,
+				46070BDF232CF8B2007CC90D /* OTPInputView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,6 +420,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 292C79BFA9D6375AC8B022BFF2313094 /* OTPInputView.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -419,9 +433,10 @@
 				GCC_PREFIX_HEADER = "Target Support Files/OTPInputView/OTPInputView-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/OTPInputView/OTPInputView-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/OTPInputView/OTPInputView.modulemap";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Abhishek.OTPInputView;
 				PRODUCT_MODULE_NAME = OTPInputView;
 				PRODUCT_NAME = OTPInputView;
 				SDKROOT = iphoneos;
@@ -439,6 +454,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 292C79BFA9D6375AC8B022BFF2313094 /* OTPInputView.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -451,14 +467,16 @@
 				GCC_PREFIX_HEADER = "Target Support Files/OTPInputView/OTPInputView-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/OTPInputView/OTPInputView-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/OTPInputView/OTPInputView.modulemap";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Abhishek.OTPInputView;
 				PRODUCT_MODULE_NAME = OTPInputView;
 				PRODUCT_NAME = OTPInputView;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -552,8 +570,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
