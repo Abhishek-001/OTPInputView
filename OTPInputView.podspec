@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '11.0'
 
-  s.source_files = '*.swift'
+  s.source_files = 'OTP*.swift'
   s.frameworks = 'UIKit'
   s.swift_version = '4.0'
   
