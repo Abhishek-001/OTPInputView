@@ -30,13 +30,8 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '11.0'
 
-  s.source_files = 'OTPInputView/Classes/**/*'
+  s.source_files = 'OTPInputView/**/*.swift'
   s.frameworks = 'UIKit'
 
-  # s.resource_bundles = {
-  #   'OTPInputView' => ['OTPInputView/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  
 end
