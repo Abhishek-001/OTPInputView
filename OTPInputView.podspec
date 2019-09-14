@@ -30,8 +30,8 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '11.0'
 
-  s.source_files = 'OTPInputView/**/*.swift'
+  s.source_files = '*.swift'
   s.frameworks = 'UIKit'
-
+  s.swift_version = '4.0'
   
 end
