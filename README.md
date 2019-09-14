@@ -5,8 +5,11 @@
 [![License](https://img.shields.io/cocoapods/l/OTPInputView.svg?style=flat)](https://cocoapods.org/pods/OTPInputView)
 [![Platform](https://img.shields.io/cocoapods/p/OTPInputView.svg?style=flat)](https://cocoapods.org/pods/OTPInputView)
 
-## Example
+## Working example 
 
+![](Images/OTPInputView-working.gif)
+
+## Example
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
@@ -21,10 +24,8 @@ pod 'OTPInputView'
 ```
 
 ## Simple usage via Interface Builder
-![](Images/OTPInputView-usage.gif)
 
-## Working example
-![](Images/OTPInputView-working.gif)
+![](Images/OTPInputView-usage.gif)
 
 ## Author
 
@@ -33,5 +34,3 @@ Abhishek Rathi, work.abhirathi@gmail.com
 ## License
 
 OTPInputView is available under the MIT license. See the LICENSE file for more info.
-=======
-# OTP-InputView
