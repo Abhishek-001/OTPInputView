@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
     'OTP-InputView is an awesome pod aimed to make your life easier when dealing with OTP Verification i.e Very common feature in Apps nowadays.'
                        DESC
 
-  s.homepage         = 'https://github.com/abhishek-001/OTPInputView'
+                       s.homepage         = 'https://github.com/abhishek-001/OTPInputView'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'abhishek-001' => 'work.abhirathi@gmail.com' }
@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '11.0'
 
-  s.source_files = '*.swift'
+  s.source_files = 'OTPInputView/Classes/*.swift'
   s.frameworks = 'UIKit'
   s.swift_version = '4.0'
   
