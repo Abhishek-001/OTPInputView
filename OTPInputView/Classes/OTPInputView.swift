@@ -9,29 +9,29 @@
 
 import UIKit
 
-protocol OTPViewDelegate {
+public protocol OTPViewDelegate {
     func didFinishedEnterOTP(otpNumber: String)
     func otpNotValid()
 }
 
-@IBDesignable class OTPInputView: UIView {
+@IBDesignable public class OTPInputView: UIView {
     
     @IBInspectable var maximumDigits: Int = 6
     @IBInspectable var backgroundColour: UIColor = .white
     @IBInspectable var shadowColour: UIColor = .darkGray
     @IBInspectable var textColor: UIColor = .black
     @IBInspectable var font: UIFont = UIFont.boldSystemFont(ofSize: 23)
-    var otpViewDelegate: OTPViewDelegate?
+    public var delegateOTP: OTPViewDelegate?
     
-    override func prepareForInterfaceBuilder() {
+    override public func prepareForInterfaceBuilder() {
         setupTextFields()
     }
     
-    override func awakeFromNib() {
+    override public func awakeFromNib() {
         setupTextFields()
     }
     
-    func setupTextFields() {
+    fileprivate func setupTextFields() {
         backgroundColor = .clear
         let stackView = UIStackView()
         stackView.translatesAutoresizingMaskIntoConstraints = false
@@ -64,7 +64,7 @@ protocol OTPViewDelegate {
         textField.textAlignment = .center
         textField.contentHorizontalAlignment = .center
         textField.layer.cornerRadius = 10
-        textField.dropShadow(shadowOpacity: 0.6, shadowColor: .darkGray)
+        textField.dropShadow(shadowOpacity: 0.6, shadowColor: shadowColour)
         textField.textColor = textColor
         textField.font = font
     }
@@ -72,7 +72,7 @@ protocol OTPViewDelegate {
 
 extension OTPInputView: UITextFieldDelegate {
     
-    func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
+    public func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
         var nextTag = 0
         
         if string.checkBackspace()
@@ -104,7 +104,7 @@ extension OTPInputView: UITextFieldDelegate {
         return false
     }
     
-    func otpFetch() {
+    public func otpFetch() {
         var otp = ""
         for tag in 1...maximumDigits {
             guard let textfield = viewWithTag(tag) as? UITextField else { continue }
@@ -113,13 +113,13 @@ extension OTPInputView: UITextFieldDelegate {
         
         // Check if OTP is complete, i.e equals to maxDigits allowed
         if otp.count == maximumDigits {
-            otpViewDelegate?.didFinishedEnterOTP(otpNumber: otp)
+            delegateOTP?.didFinishedEnterOTP(otpNumber: otp)
         } else {
-            otpViewDelegate?.otpNotValid()
+            delegateOTP?.otpNotValid()
         }
     }
-}
 
+}
 
 extension String {
     func checkBackspace() -> Bool {
