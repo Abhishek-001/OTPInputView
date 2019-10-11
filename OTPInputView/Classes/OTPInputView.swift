@@ -50,7 +50,7 @@ public protocol OTPViewDelegate {
         stackView.distribution = .fillEqually
         
         for tag in 1...maximumDigits {
-            let textField = UITextField()
+            let textField = OTPTextField()
             textField.tag = tag //set Tag to textField
             stackView.addArrangedSubview(textField)  // Add to stackView
             setupTextFieldStyle(textField)  // set the style accordingly
@@ -78,7 +78,7 @@ extension OTPInputView: UITextFieldDelegate {
         if string.checkBackspace()
         {
             textField.deleteBackward()
-            nextTag = textField.tag - 1
+            return false
         } else if string.count == 1
         {
             textField.text = string
@@ -93,7 +93,7 @@ extension OTPInputView: UITextFieldDelegate {
             otpFetch()
         }
         
-        if let nextTextfield = viewWithTag(nextTag) as? UITextField {
+        if let nextTextfield = viewWithTag(nextTag) as? OTPTextField {
             nextTextfield.becomeFirstResponder()
         } else {
             if nextTag > maximumDigits {
@@ -103,6 +103,11 @@ extension OTPInputView: UITextFieldDelegate {
         }
         return false
     }
+    
+    public func textFieldDidBeginEditing(_ textField: UITextField) {
+        print("editing")
+    }
+    
     
     public func otpFetch() {
         var otp = ""
@@ -144,3 +149,6 @@ extension UIView {
     }
     
 }
+
+
+
