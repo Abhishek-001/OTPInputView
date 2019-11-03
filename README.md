@@ -1,5 +1,8 @@
 # OTPInputView
 
+[![CocoaPods Compatible](https://img.shields.io/cocoapods/v/VKPinCodeView.svg)](https://img.shields.io/cocoapods/v/VKPinCodeView.svg)
+[![Carthage Compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
+
 [![CI Status](https://img.shields.io/travis/abhishek-001/OTPInputView.svg?style=flat)](https://travis-ci.org/abhishek-001/OTPInputView)
 [![Version](https://img.shields.io/cocoapods/v/OTPInputView.svg?style=flat)](https://cocoapods.org/pods/OTPInputView)
 [![License](https://img.shields.io/cocoapods/l/OTPInputView.svg?style=flat)](https://cocoapods.org/pods/OTPInputView)
@@ -29,7 +32,7 @@ pod 'OTPInputView'
 
 ## Author
 
-Abhishek Rathi, work.abhirathi@gmail.com
+Made by Abhishek Rathi, work.abhirathi@gmail.com
 
 ## License
 
