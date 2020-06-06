@@ -1,18 +1,34 @@
 version: 2.1
 
 jobs:
-  build:
-
-    macos:
-      xcode: 11.0.0 # Specify the Xcode version to use
-
-    steps:
-      - checkout
-      - run: 
-          name: Run Unit Tests
-          command: xcodebuild test -scheme circleci-demo-macos
-
-workflows:
-  build-n-release:
-   jobs: 
-    build:  
+    build:
+        
+        macos:
+        xcode: 11.3.1
+        
+        
+        steps:
+            - checkout
+        
+        - run:
+            name: Bundle install
+            command: |
+                cd Example
+                bundle install
+        
+        - run:
+            name: Install Cocoapods
+            command: |
+                cd Example
+                pod install
+        
+        - run:
+            name: Run Unit Tests
+            command: fastlane scan --device "iPad Air"
+                
+        
+        workflows:
+            build-n-release:
+                jobs:
+                    - build:
+                        
