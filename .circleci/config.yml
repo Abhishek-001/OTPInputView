@@ -3,7 +3,9 @@ version: 2.1
 jobs:
     build:
         
-        xcode: 11.3.1
+        macos:
+        xcode: "11.3.1"
+
         
         steps:
             - checkout
@@ -22,7 +24,9 @@ jobs:
         
             - run:
                 name: Run Unit Tests
-                command: fastlane scan --device "iPad Air"
+                command: |
+                    cd Example
+                    fastlane scan --device "iPad Air"
                 
         
 workflows:
