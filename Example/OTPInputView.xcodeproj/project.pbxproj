@@ -509,6 +509,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3E3B03EAA14D487C58A69B84 /* Pods-OTPInputView_Tests.debug.xcconfig */;
 			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -532,6 +533,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E7ED42365DACF468AB1779CE /* Pods-OTPInputView_Tests.release.xcconfig */;
 			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",

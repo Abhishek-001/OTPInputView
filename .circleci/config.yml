@@ -4,8 +4,7 @@ jobs:
     build:
         
         macos:
-        xcode: "11.3.1"
-
+          xcode: "11.3.1"
         
         steps:
             - checkout
@@ -30,7 +29,8 @@ jobs:
                 
         
 workflows:
+    version: 2.1
     build-n-release:
         jobs:
-            - build:
+            - build
                         
