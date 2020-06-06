@@ -3,32 +3,30 @@ version: 2.1
 jobs:
     build:
         
-        macos:
         xcode: 11.3.1
-        
         
         steps:
             - checkout
         
-        - run:
-            name: Bundle install
-            command: |
-                cd Example
-                bundle install
+            - run:
+                name: Bundle install
+                command: |
+                    cd Example
+                    bundle install
         
-        - run:
-            name: Install Cocoapods
-            command: |
-                cd Example
-                pod install
+            - run:
+                name: Install Cocoapods
+                command: |
+                    cd Example
+                    pod install
         
-        - run:
-            name: Run Unit Tests
-            command: fastlane scan --device "iPad Air"
+            - run:
+                name: Run Unit Tests
+                command: fastlane scan --device "iPad Air"
                 
         
-        workflows:
-            build-n-release:
-                jobs:
-                    - build:
+workflows:
+    build-n-release:
+        jobs:
+            - build:
                         
