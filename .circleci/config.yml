@@ -1,0 +1,18 @@
+version: 2.1
+
+jobs:
+  build:
+
+    macos:
+      xcode: 11.0.0 # Specify the Xcode version to use
+
+    steps:
+      - checkout
+      - run: 
+          name: Run Unit Tests
+          command: xcodebuild test -scheme circleci-demo-macos
+
+workflows:
+  build-n-release:
+   jobs: 
+    build:  
