@@ -31,13 +31,20 @@ it, simply add the following line to your Podfile:
 pod 'OTPInputView'
 ```
 
-## Simple usage via Interface Builder
+## Easy to use in Interface Builder
 
 ![](Images/OTPInputView-usage.gif)
 
+
+
+## Change input digits for OTP via Interface Builder
+
+![](Images/OTPInputView-digits.gif)
+
+
 ## Author
 
-Made by Abhishek Rathi, work.abhirathi@gmail.com
+From Abhishek Rathi with Love, work.abhirathi@gmail.com
 
 ## License
 

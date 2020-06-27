@@ -74,9 +74,7 @@ extension OTPInputView: UITextFieldDelegate {
     
     public func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
         var nextTag = 0
-        
-        if string.checkBackspace()
-        {
+        if string.checkBackspace() {
             textField.deleteBackward()
             return false
         } else if string.count == 1

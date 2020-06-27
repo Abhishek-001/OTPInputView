@@ -20,7 +20,6 @@ class OTPTextField: UITextField {
     }
     
     func findPrevious() {
-           
            if let nextField = self.superview?.viewWithTag(self.tag - 1) as? UITextField { //nextField.text?.count == 0 {
                nextField.becomeFirstResponder()
            } else {
